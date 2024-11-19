@@ -4,10 +4,10 @@ const config = {
     },
     development: {
         enabled: false, // If true, the bot will register all application commands to a specific guild (not globally).
-        guildId: 'Your bot development guild ID',
+        guildId: '1303396619940659241',
     },
     commands: {
-        prefix: '?', // For message commands, prefix is required. This can be changed by a database.
+        prefix: '/', // For message commands, prefix is required. This can be changed by a database.
         message_commands: true, // If true, the bot will allow users to use message (or prefix) commands.
         application_commands: {
             chat_input: true, // If true, the bot will allow users to use chat input (or slash) commands.
@@ -16,8 +16,8 @@ const config = {
         }
     },
     users: {
-        ownerId: 'Your account ID', // The bot owner ID, which is you.
-        developers: ['Your account ID', 'Another account ID'] // The bot developers, remember to include your account ID with the other account IDs.
+        ownerId: '970035995993079848', // The bot owner ID, which is you.
+        developers: ['970035995993079848', '1216487150837563524'] // The bot developers, remember to include your account ID with the other account IDs.
     },
     messages: { // Messages configuration for application commands and message commands handler.
         NOT_BOT_OWNER: 'You do not have the permission to run this command because you\'re not the owner of me!',
